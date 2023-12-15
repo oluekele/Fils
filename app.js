@@ -7,8 +7,14 @@ const contactUs = document.querySelector('#contact');
 const aboutBtn = document.querySelector('#aboutbtn');
 const serviceBtn = document.querySelector('#servicebtn');
 const service = document.querySelector('#services');
+const home = document.querySelector('#home');
 
 
+home.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.href = 'index.html';
+    console.log('about.html clicked');
+});
 aboutUs.addEventListener('click', (e) => {
     e.preventDefault();
     window.location.href = 'about.html';
