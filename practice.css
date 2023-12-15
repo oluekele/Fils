@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins';
 }
 
 .navbar{
@@ -256,14 +256,29 @@ b{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 70vh;
     text-align: center;
     /* background-color: #141414; */
     margin-top: 50px;
     z-index: 1;
     width: 100%;
     max-width: 90%;
+    
    
+}
+.main__container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: #141414; */
+    margin-top: 50px;
+    z-index: 1;
+    width: 100%;
+    max-width: 90%;
+    height: 70vh;
 }
 
 .main__content h1{
@@ -287,14 +302,31 @@ b{
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent; 
 }
-
+.main__content2 h3{
+    color: #ffffffea;
+    text-align: start;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+}
 .main__content p{
     margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 700;
     color: #fff;
     display: grid;
+    line-height: 35px;
+    font-weight: 200;
     
+}
+.main__content2 p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    display: grid;
+    line-height: 35px;
+    font-weight: 200;
 }
 
 .main__btn{
@@ -344,7 +376,18 @@ b{
     
     
 }
+.main__img--container2{
+    text-align: center;
+    width: 90%;
+    
+    
+}
 .main__img--container img{
+    height: 80%;
+    width: 100%;
+    
+}
+.main__img--container2 img{
     height: 80%;
     width: 100%;
     
@@ -371,20 +414,37 @@ img{
         align-items: center;
         justify-self: center;
         margin: 0 40px 0 40px;
-        height: 90vh;
+        
         margin-top: 100px;
         
     }
-
-    .main__content{
-        text-align: center;
-        margin-bottom: 4rem;
-
+    .main__container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        margin: 10rem 40px 0 40px;
+        
+        padding-top: 50rem;
+        
     }
+
+    .main__content p{
+        text-align: start;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+    }
+    .main__content2 p{
+        text-align: start;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+        height: 1000px;
+    }
+
 
     .main__content h1{
         font-size: 2rem;
-        margin-top: 2rem;
+        margin-top: 5rem;
     }
 
     .main__content h2{
@@ -395,8 +455,13 @@ img{
         margin-top: 1rem;
         font-size: 1.2rem;
     }
+    
 
     .main__img--container{
+        margin: 0 40px;
+        
+    }
+    .main__img--container2{
         margin: 0 40px;
         
     }
@@ -407,23 +472,59 @@ img{
        
 
     }
+    .main__img--container2 img{
+        height: 80%;
+        width: 100%;
+       
 
+    }
+   
 }
 
 @media screen and (max-width: 680px){
+    .main{
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        height: 100h;
+    }
+   
+    .main__container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 4rem 0;
+    }
+    .main__container2{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
     .main__content h1{
         font-size: 1.5rem;
-        margin-top: 3rem;
+        margin-top: 10rem;
     }
 
     .main__content h2{
         font-size: 2rem;
     }
+    .main__content2 h3{
+        font-size: 1.2rem;
+        color: #fff;
+        text-align: start;
+        margin: 0 2rem;
+    }
     
 
     .main__content p{
-        margin-top: 2rem;
-        font-size: 1.2rem;
+        text-align: start;
+       
+        margin: 2rem;
+    }
+    .main__content2 p{
+        text-align: start;
+        height: 1300px;
+        margin: 2rem;
+        color: #fff;
     }
 
     .main__btn{
@@ -432,10 +533,87 @@ img{
     }
     .main__img--container{
         height: 80%;
-        width: 80%;
-        margin: auto;
+        margin: o auto;
+        padding-left: 0.5rem;
     }
+    
 }
+.aboutus{
+    width: 100%;
+    background: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    
+  }
+  .aboutus img{
+    width: 40%;
+    border-radius: 2rem;
+    margin-right: 2rem;
+  }
+  .aboutus p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 1200px){
+    .aboutus{
+      width: 100vw;
+      background: #131313;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    .aboutus img{
+      width: 80%;
+      border-radius: 2rem;
+      margin-right: 1.5rem;
+    }
+    .aboutus p{
+      display: flex;
+      flex-direction: column;
+      font-size: 1.2rem;
+      color: #fff;
+      width: 80%;
+      margin: 1rem auto;
+    }
+  }
+  @media screen and (max-width: 950px){
+    .aboutus{
+      width: 100%;
+      background: #131313;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    .aboutus img{
+      width: 80%;
+      border-radius: 2rem;
+      
+    }
+    .aboutus p{
+      display: flex;
+      flex-direction: column;
+      font-size: 1.2rem;
+      color: #fff;
+      width: 80%;
+      
+    }
+    .aboutus .text2{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        color: #fff;
+        width: 80%;
+        
+      }
+  }
+
     /* services section css */
 .services{
     background: #141414;
@@ -505,8 +683,8 @@ img{
 .services__card p{
    position: absolute; 
    top: 430px;
-   left: 30px;
    font-size: 1.5rem;
+   width: 80%;
 }
 .service_text2{
     display: flex;
