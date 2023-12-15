@@ -129,9 +129,7 @@ b{
         width: 100%;
         
     }
-    .navbar__menu{
-        width: 900px;
-    }
+   
     .navbar__menu li{
         width: 150px;
     }
@@ -432,7 +430,11 @@ img{
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
- 
+    .main__img--container{
+        height: 80%;
+        width: 80%;
+        margin: auto;
+    }
 }
     /* services section css */
 .services{
@@ -444,7 +446,7 @@ img{
     padding: 3rem 0;
     justify-content: space-between;
     width: 100%;
-        
+    user-select: none;    
         
         
 }
@@ -568,7 +570,7 @@ img{
     .services{
         height: 1600px;
         margin-top: -50px;
-        
+        padding-top: 10rem;
     }
     .services__card{
         margin-top: 100px;
@@ -598,17 +600,20 @@ img{
 
 @media screen and (max-width:680px){
     .services{
-        height: 1400px;
+        padding-top: 10rem;
     }
     
     .services h1{
         
         margin-top: -1rem;
     }
-
-    .services__card{
-        width: 300px;
+    .servicedown .image{
+        width: 80%;
+        
     }
+    /* .services__card{
+        width: 300px;
+    } */
 }
 
 /* footer css */
@@ -673,6 +678,11 @@ img{
     background-color: #4837ff;
     border: none;
     border-radius: 4px;
+}
+@media screen and (max-width: 768px) {
+    .contact{
+        padding-top: 10rem;
+    }
 }
 .footer__container{
     margin-top: -300px;
@@ -828,6 +838,7 @@ ion-icon:hover{
     justify-content: space-between;
     padding: 4rem;
     height: 100vh;
+    user-select: none;
 }
 .aboutus img{
     width: 600px;
@@ -847,16 +858,26 @@ ion-icon:hover{
     background: #131313;
     display: flex;
     flex-direction: column;
-    
-    padding: 8rem;
-    
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 4rem;
+    /* text-align: center; */
 }
-.contactUs p{
+.contactUs div{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    justify-content: center;
+    width: 100%;
     font-size: 1.5rem;
     color: #fff;
-    padding: 0 16rem;
+    
+
 }
+/* @media screen and (max-width: 680px){
+    .contactUs div{
+        width: 100%;
+        margin: auto 2rem;
+    
+    }
+} */
 
