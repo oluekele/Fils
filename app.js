@@ -8,6 +8,7 @@ const aboutBtn = document.querySelector('#aboutbtn');
 const serviceBtn = document.querySelector('#servicebtn');
 const service = document.querySelector('#services');
 const home = document.querySelector('#home');
+const block = document.querySelector('#block');
 
 
 home.addEventListener('click', (e) => {
@@ -40,6 +41,11 @@ serviceBtn.addEventListener('click', (e) => {
     e.preventDefault();
     window.location.href = 'service.html';
     console.log('service.html clicked');
+});
+block.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.href = 'blockchain.html';
+    console.log('about.html clicked');
 });
 
 menu.addEventListener('click', function(){
