@@ -22,9 +22,11 @@
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
+            
+
                 <ul class="navbar__menu">
-                    <li class="navbar__item" id="home" >
-                        <a href="#" class="navbar__links">Home</a>
+                    <li class="navbar__item " id="home" >
+                        <a href="#" class="navbar__links" >Home</a>
                     </li>
                     <li class="navbar__item" id="about" >
                         <a href="#" class="navbar__links">About Us</a>
@@ -49,7 +51,9 @@
                     <p>At FILS (Financial Law Specialist) we believe that every action we take as lawyers should lead to greater success for our clients. Our passion for service, deep business and financial services experience, and our sensible billing model, provide uncommon value without compromise.</p>
                     
                     
-                    <button id="aboutbtn" class="main__btn"><a href="/">Get Started</a></button>
+                    <button id="aboutbtn" class="main__btn" onclick="{
+                        window.location.href = 'about.html'
+                    }">Get Started</button>
                 </div>
                 <div class="main__img--container">
                     <img  src="./law1.jpg" alt="pic" id="main__img">
@@ -82,19 +86,11 @@
                     
                 </div>
             </div>
-            <button id="servicebtn">Get Started</button>
+            <button id="servicebtn" onclick="{
+                window.location.href = 'service.html';
+            }">Get Started</button>
         </div>
-        <div class="contact">
-            <h3>LET'S TALK</h3>
-            <p>We are eager to learn about your business objectives and brainstorm on how we can help you achieve them.</p>
-            <div class='contactForm'>
-                <input  type='text' id='name' placeholder='Your name' name='name'/>
-                <input  type='email' id='email' placeholder='Your email' name='email'/>
-                <textarea name='message' cols='30' rows='5' placeholder='Your message' className='msg' id="message"></textarea>
-                <button type="submit" class='submitBtn'  onclick="sendMail()">Submit</button>
-                
-            </div>
-        </div>
+        
         <!-- Footer section -->
 
         <div class="footer__container">

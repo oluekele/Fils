@@ -4,11 +4,9 @@ const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 const aboutUs = document.querySelector('#about');
 const contactUs = document.querySelector('#contact');
-const aboutBtn = document.querySelector('#aboutbtn');
-const serviceBtn = document.querySelector('#servicebtn');
 const service = document.querySelector('#services');
 const home = document.querySelector('#home');
-const block = document.querySelector('#block');
+
 
 
 home.addEventListener('click', (e) => {
@@ -17,11 +15,6 @@ home.addEventListener('click', (e) => {
     console.log('about.html clicked');
 });
 aboutUs.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.location.href = 'about.html';
-    console.log('about.html clicked');
-});
-aboutBtn.addEventListener('click', (e) => {
     e.preventDefault();
     window.location.href = 'about.html';
     console.log('about.html clicked');
@@ -37,16 +30,8 @@ service.addEventListener('click', (e) => {
     window.location.href = 'service.html';
     console.log('service.html clicked');
 });
-serviceBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.location.href = 'service.html';
-    console.log('service.html clicked');
-});
-block.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.location.href = 'blockchain.html';
-    console.log('about.html clicked');
-});
+
+
 
 menu.addEventListener('click', function(){
     menu.classList.toggle('is-active');

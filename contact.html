@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./practice.css">
-        <link rel="stylesheet" href="./blockchain.css">
+        <link rel="stylesheet" href="./contact.css">
+        
         
         <link rel="icon" href='./title.jpg'
           type="image/x-icon">
@@ -15,7 +16,7 @@
     </head>
     <body>
        
-        <!-- <nav class="navbar">
+        <nav class="navbar">
             <div class="navbar__container">
                 <a href="/" id="navbar__logo"><ion-icon class="logo" name="diamond-outline"></ion-icon>FILS</a>
                 <div class="navbar__toggle" id="mobile-menu">
@@ -39,35 +40,46 @@
                 </ul>
             </div>
             
-        </nav> -->
-        <!-- Hero section -->
+        </nav> 
+     <!-- Hero section -->
         
         <div class="contactUs">
-            <div class="contact_image">
-            
-                <div class="image_container">
+            <div class="contactimg">
+                
+                <div class="img_container">
                   <img src="./contact1.png" alt="">
-                  <p>Attorney Paul Strickland</p>
+                  <p>Paul Stanley</p>
                     <p>Blockchain Team member</p>
                 </div>
-                <div class="image_container">
+                <div class="img_container">
                   <img src="./contact2.jpg" alt="">
-                  <p>Attorney Alina Veneziano</p>
+                  <p>Tom Gentleman</p>
                   <p>Blockchain & CPA</p>
                   <p>Team Leader</p>
                 </div>
-                <div class="image_container">
+                <div class="img_container">
                   <img src="./contact3.jpg" alt="">
-                  <p>Tim Allen</p>
+                  <p>Allen Philip</p>
                     <p>Blockchain Team</p>
                     <p>Former Special Agent</p>
                 </div>
               </div>
-            <div>
+            <div class="address">
                 <P>Contact email: financiallawspecialist@gmail.com</P>
                 <P>Contact address: <span>NOTARY PUBLIC </span><span>LEVEL 15/18 MARTIN PI, SYDNEY NSW, 2000, <span> AUSTRALIA.</span></P>
             </div>
             
+        </div>
+        <div class="contact">
+            <h3>LET'S TALK</h3>
+            <p>We are eager to learn about your business objectives and brainstorm on how we can help you achieve them.</p>
+            <div class='contactForm'>
+                <input  type='text' id='name' placeholder='Your name' name='name'/>
+                <input  type='email' id='email' placeholder='Your email' name='email'/>
+                <textarea name='message' cols='30' rows='5' placeholder='Your message' className='msg' id="message"></textarea>
+                <button type="submit" class='submitBtn'  onclick="sendMail()">Submit</button>
+                
+            </div>
         </div>
         <!-- Footer section -->
 

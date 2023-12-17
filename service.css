@@ -1,0 +1,234 @@
+.main_services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  user-select: none;    
+  margin: 10rem auto;   
+      
+}
+
+
+.main_services h1{
+  background-color: #ff8177;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff867f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 6rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  flex-wrap: wrap;
+  margin:  0 auto;
+}
+
+.card{
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%);
+  background-size: cover;
+  color: #fff;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+}
+
+.card:nth-child(2){
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%);
+  background-size: cover;
+  color: #fff;
+  width: 40%;
+}
+
+
+.card h2{
+  text-align: start;
+  width: 100%;
+  
+}
+
+.card p{
+ font-size: 1.2rem;
+ width: 100%;
+  
+}
+.service_text2{
+  
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-align: start;
+}
+.card img{
+  width: 70%;
+  height: 400px;
+}
+.card .img4{
+  width: 100%;
+  height: 400px;
+}
+
+#servicebtn{
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #f77062;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.085);
+  transition: 0.7s ease-in-out;
+  cursor: pointer;
+}
+
+.servicedown{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #141414;
+  
+}
+.servicedown .image{
+  width: 80%;
+  height: 400px;
+}
+.servicedown img{
+  border-radius: 8px;
+  height: 300px;
+  background-size: cover;
+  background-clip: content-box;
+  width: 100%;
+  background-repeat: no-repeat;
+
+}
+.servicedown p{
+  font-size: 1.2rem;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.servicedown p span{
+  margin: 5px 0;
+}
+.blockchain
+@media screen and (max-width:1200px){
+  /* .services{
+      margin: -10rem auto;
+  } */
+  .card {
+      margin: -20rem 2rem;
+      margin-bottom: 3rem;
+  }
+  .card p{
+      font-size: 1rem;
+      width: 100%;
+      
+  }
+  .main_services h1{
+      font-size: 2rem;
+      
+  }
+  .main_services h2{
+      font-size: 1.8rem;
+      
+      
+  }
+  .servicedown .image{
+    width: 80%;
+    
+  }
+  .services__card{
+      margin-top: 80px;
+  }
+  .service_text2{
+      margin-top: 90px; 
+  }
+  .servicedown{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:950px){
+  .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      margin:  2rem auto;
+      font-size: 0.9rem;
+  }
+  .card{
+      width: 80%;
+      margin: 1rem auto;
+      
+  }
+  .card:nth-child(2){
+      width: 80%;
+      margin:  auto;
+  }
+ 
+  .main_services h1{
+     font-size: 1.3rem;
+     margin-top: 2rem;
+  }
+  
+  .service_text2{
+      margin-top: -0.2rem;
+      font-size: 1.2rem;
+  }
+}
+@media screen and (max-width:500px){
+  .main_services{
+      margin: 4rem 4rem 0;
+  }
+  .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      font-size: 0.5rem;
+  }
+  
+  
+  .servicedown p{
+    font-size: 0.9rem;
+  }
+  .servicedown .image{
+    width: 80%;
+    
+}
+
+  
+  
+  
+}
+
+
+
+
+

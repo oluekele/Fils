@@ -1,0 +1,57 @@
+.contactUs{
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  padding: 10rem 0 0;
+  color: #fff;
+}
+.contactimg{
+  margin-bottom: 2rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.img_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  
+}
+
+.img_container img{
+  width: 300px;
+  border-radius: 3rem;
+  
+}
+.contact p{
+  width: 80%;
+  margin: 1rem 0;
+  font-size: 1rem;
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .contactimg{
+    margin-bottom: 2rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .img_container{
+    width: 100%;
+  }
+  .img_container img{
+    width: 50%;
+    
+    
+  }
+}
+
