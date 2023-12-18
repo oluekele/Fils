@@ -316,8 +316,9 @@ body{
     margin: 4rem auto;
     font-weight: 700;
     top: 2rem;
-    left: 10%;
+    left: 5%;
     width: 80%;
+    max-width: 600px;
     
 }
 
@@ -553,6 +554,14 @@ img{
         padding-left: 0.5rem;
     }
     
+}
+@media screen and (max-width: 450px){
+    .homecontentslide span{
+        font-size: 0.8rem;
+        width: 90%;
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
 
     /* services section css */
