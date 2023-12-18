@@ -313,7 +313,7 @@ body{
     position: absolute;
     font-size: 2rem;
     color: #fff;
-    margin: 6rem auto;
+    margin: 4rem auto;
     font-weight: 700;
     top: 2rem;
     left: 10%;
@@ -533,6 +533,7 @@ img{
     }
     .homecontentslide span{
         font-size: 1.5rem;
+        
     }
     
     .main__content p{
