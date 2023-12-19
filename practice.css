@@ -58,6 +58,7 @@ body{
     font-size: 2rem;
     font-size-adjust: 0.5;
     color: #b12a5b;
+    
 }
 /* .fa-diamond{
     margin-right: 0.5rem;
@@ -272,7 +273,7 @@ body{
        margin-left: 0;
     }
     #navbar__logo{
-        width: 100px;
+        width: 150px;
     }
 }
 /* slider section */
@@ -823,8 +824,8 @@ img{
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
-    width: 100%;
+    font-size: 1.2rem;
+    width: 10 0px;
     margin: 0 auto;
 }
 
@@ -833,7 +834,7 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 
@@ -878,7 +879,7 @@ img{
 }
 
 ion-icon {
-    font-size: 34px;
+    font-size: 30px;
     color: #fff;
 }
 ion-icon:hover{
@@ -899,7 +900,7 @@ ion-icon:hover{
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin: 40px auto auto;
+    margin:  auto;
 }
 
 .social__icons{
@@ -924,7 +925,7 @@ ion-icon:hover{
 
 .website__right{
     color: #fff;
-
+    
 }
 
 @media screen and (max-width: 1200px){
@@ -947,14 +948,15 @@ ion-icon:hover{
         font-size: 0.9rem;
     }
     #footer__logo{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        
     }
     
     .social__icon__link{
         font-size: 10rem;
     }
     ion-icon{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
 }
